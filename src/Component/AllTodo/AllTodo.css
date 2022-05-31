@@ -1,0 +1,36 @@
+.all_todo{
+	display: block;
+	margin-top: 40px;
+	width: 400px;
+	
+}
+
+.all_todo span{
+	font-weight: 500;
+	font-size: 1.4rem;
+	letter-spacing: 3px;
+	padding: 10px 0 14px 0;
+	line-height: 32px;
+	width: 300px;
+	overflow-wrap: break-word;
+	font-style: oblique;
+}
+.all_todo button[name="button"]{
+	font-size: 1.4rem;
+	color: whitesmoke;
+	border: none;
+	background-color: #E74D3D;
+	padding: 10px 10px;
+	margin: 0px;
+	cursor: pointer;
+	margin-right: 0;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.singleTodo{
+	display: flex;
+	justify-content: space-between;
+	background-color: #F2F2F2;
+	padding: 0px 0 0px 8px;
+	margin: 10px 0;
+}

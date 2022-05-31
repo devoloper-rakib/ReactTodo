@@ -1,0 +1,28 @@
+.add_todo form{
+
+display: flex;
+justify-content: space-between;
+}
+
+.add_todo input[name="todo"]{
+	font-size: 1.4rem;
+	color: gray;
+	background-color: transparent;
+	border: 1px solid rgba(128, 128, 128, 0.359);
+	outline: none;
+	padding: 13px 17px;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.add_todo button[name="button"]{
+	font-size: 1.4rem;
+	color: whitesmoke;
+	background-color: transparent;
+	border: none;
+	background-color: #8E49E9;
+	padding: 9px ;
+	margin-left: 10px;
+	cursor: pointer;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
