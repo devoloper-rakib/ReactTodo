@@ -6,9 +6,6 @@ function App() {
 	const [data, setData] = useState([]);
 
 	const removeData = (id) => {
-		// const todoFilter = data.filter((item) => item.id !== id);
-		// setData(todoFilter);
-
 		setData((prev) => {
 			const todoFilter = prev.filter((item) => item.id !== id);
 			return todoFilter;
