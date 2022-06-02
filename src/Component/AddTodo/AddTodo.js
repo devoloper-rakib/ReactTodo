@@ -19,7 +19,6 @@ export const AddTodo = ({ setData }) => {
 			const data = {
 				...prev,
 				[name]: event.target.value,
-				id: uuidv4(),
 			};
 			return data;
 		});
@@ -31,7 +30,10 @@ export const AddTodo = ({ setData }) => {
 			id: '',
 			todo: '',
 		});
-		setData((prev) => [...prev, todo]);
+
+		todo.todo
+			? setData((prev) => [...prev, { ...todo, id: uuidv4() }])
+			: alert('you should write ');
 	};
 
 	return (
